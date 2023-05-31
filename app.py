@@ -1,6 +1,5 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
 from PIL import Image
 st.set_page_config(page_title="Ishit Choudhary", page_icon="👨‍🎓", layout="wide")
 def load_lottieurl(url):
@@ -15,32 +14,32 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 local_css("style/style.css")
-profile_image = Image.open(r'.\images\ishit_picture.jpg')
-ccc1_image = Image.open(r'.\images\Fundamentals of Accelerated Computing with CUDA Python.jpg')
-ccc2_image = Image.open(r'.\images\Fundamentals of Accelerated Computing with CUDA C++.jpg')
-ccc3_image = Image.open(r'.\images\Accelerating Cuda C++ Application with Concurrent Streams.jpg')
-ccc4_image = Image.open(r'.\images\Getting Started on AI with Jetson Nano.jpg')
-ccc5_image = Image.open(r'.\images\STEM Connect Virtual Experience Program.jpg')
-ccc6_image = Image.open(r'.\images\Artificial Intelligence.jpg')
-ccc7_image = Image.open(r'.\images\Shakura Science Exchange Program.jpg')
+profile_image = Image.open(r'images\ishit_picture.jpg')
+ccc1_image = Image.open(r'images\Fundamentals of Accelerated Computing with CUDA Python.jpg')
+ccc2_image = Image.open(r'images\Fundamentals of Accelerated Computing with CUDA C++.jpg')
+ccc3_image = Image.open(r'images\Accelerating Cuda C++ Application with Concurrent Streams.jpg')
+ccc4_image = Image.open(r'images\Getting Started on AI with Jetson Nano.jpg')
+ccc5_image = Image.open(r'images\STEM Connect Virtual Experience Program.jpg')
+ccc6_image = Image.open(r'images\Artificial Intelligence.jpg')
+ccc7_image = Image.open(r'images\Shakura Science Exchange Program.jpg')
 
-ddd1_image = Image.open(r'.\images\Canadian Senior Mathematics Contest.jpg')
-ddd2_image = Image.open(r'.\images\IEO International Rank Holder.jpg')
-ddd3_image = Image.open(r'.\images\Bord Topper Computer Applications.jpg')
-ddd4_image = Image.open(r'.\images\Bord Topper Mathmatics.jpg')
+ddd1_image = Image.open(r'images\Canadian Senior Mathematics Contest.jpg')
+ddd2_image = Image.open(r'images\IEO International Rank Holder.jpg')
+ddd3_image = Image.open(r'images\Bord Topper Computer Applications.jpg')
+ddd4_image = Image.open(r'images\Bord Topper Mathmatics.jpg')
 
-eee1_image = Image.open(r'.\images\F1inschools Time of Sports National Finals Research and Development Award.jpg')
-eee2_image = Image.open(r'.\images\F1inschools Time of Sports National Finals Enterprise Portfolio Award.jpg')
-eee3_image = Image.open(r'.\images\F1inschools Time of Sports Regional Finals Sponsorship and marketing Award.jpg')
-eee4_image = Image.open(r'.\images\F1inschools Time of Sports Regional Finals Best Trainee Award.jpg')
-eee5_image = Image.open(r'.\images\Techkriti Open School Championship (IIT Kanpur).jpg')
+eee1_image = Image.open(r'images\F1inschools Time of Sports National Finals Research and Development Award.jpg')
+eee2_image = Image.open(r'images\F1inschools Time of Sports National Finals Enterprise Portfolio Award.jpg')
+eee3_image = Image.open(r'images\F1inschools Time of Sports Regional Finals Sponsorship and marketing Award.jpg')
+eee4_image = Image.open(r'images\F1inschools Time of Sports Regional Finals Best Trainee Award.jpg')
+eee5_image = Image.open(r'images\Techkriti Open School Championship (IIT Kanpur).jpg')
 # eee6_image = Image.open(r'.\images\')
 # eee7_image = Image.open(r'.\images\')
 # eee8_image = Image.open(r'.\images\')
 
-thapar_image = Image.open(r'.\images2\Thapar-University.jpg')
-shri_ram_image = Image.open(r'.\images2\shri-ram-school.png')
-shikshantar_image = Image.open(r'.\images2\shikshantar school.jpg')
+thapar_image = Image.open(r'images2\Thapar-University.jpg')
+shri_ram_image = Image.open(r'images2\shri-ram-school.png')
+shikshantar_image = Image.open(r'images2\shikshantar school.jpg')
 
 
 
