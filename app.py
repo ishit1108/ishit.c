@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 from PIL import Image
-st.set_page_config(page_title="CC41", page_icon="👨‍🎓", layout="wide")
+st.set_page_config(page_title="Ishit Choudhary", page_icon="👨‍🎓", layout="wide")
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -52,7 +52,7 @@ with st.container():
     with col1:
         st.empty()
     with col2:
-        st.title('CC41')
+        st.title('Ishit Choudhary')
         st.subheader('Computer Engineer')
         st.write('''I am a passionate and dedicated 4th year computer engineering 
         student, specializing in ML, AI, DL, and CV. 
@@ -89,70 +89,70 @@ with tpersonal:
             st.write("Age: 20")
             st.write("---")
             st.write("Add: ")
-            st.image(confidential)
-            # st.write("Tower 19, Flat 1001")
-            # st.write("\t Orchid Petals, Sohna Road")
-            # st.write("\t Sector 49, Gurgaon")
-            # st.write("\t pin code - 122018")
-            # st.write("\t Haryana, India")
+            #st.image(confidential)
+            st.write("Tower 19, Flat 1001")
+            st.write("\t Orchid Petals, Sohna Road")
+            st.write("\t Sector 49, Gurgaon")
+            st.write("\t pin code - 122018")
+            st.write("\t Haryana, India")
             st.write("---")
             st.write("\t ph: +91 88265-64722")
-            st.write(" mail: [CONFIDENTIAL]")
+            st.write(" mail: ishit.chy@gmail.com")
 
 
 
 with teducation:
     with st.container():
         st.write("---")
-        st.image(confidential)
-    #     st.subheader('Thapar Institute of Engineering and Technology, Patiala')
-    #     #st.title()
-    #     col1, col2 = st.columns([3,7])
-    #     with col2:
-    #         st.subheader('B.E. Computer Engineering (2020-2024)')
-    #         st.write('CGPA (Out of 10): 9.28 ')
-    #         st.write('CGPA (Out of 4) : 3.71')
-    #     with col1:
-    #         st.image(thapar_image)
-    # with st.container():
-    #     st.write("---")
-    #     st.subheader('The Shri Ram School, Aravali')
-    #     #st.title()
-    #     col1, col2 = st.columns([3,7])
-    #     with col2:
-    #         st.subheader('Senior Secondary (2018-2020)')
-    #         st.write('ISC Boards (PCM-CS): 94.6%')
-    #         st.write('Maths Board Topper (100%)')
-    #         st.write('Computer Science Board Topper (100%)')
-    #         #st.write('CGPA (Out of 4) : 3.71')
-    #     with col1:
-    #         st.image(shri_ram_image)
-    # with st.container():
-    #     st.write("---")
-    #     st.subheader('The Shri Ram School, Aravali')
-    #     #st.title()
-    #     col1, col2 = st.columns([3,7])
-    #     with col2:
-    #         st.subheader('Secondary School (2016-2018)')
-    #         st.write('ICSE Boards: 96.7%')
-    #         st.write('Maths Board Topper (100%)')
-    #         st.write('Computer Science Board Topper (100%)')
-    #         #st.write('CGPA (Out of 4) : 3.71')
-    #     with col1:
-    #         st.image(shri_ram_image)
-    # with st.container():
-    #     st.write("---")
-    #     st.subheader('Shikshantar School')
-    #     #st.title()
-    #     col1, col2 = st.columns([3,7])
-    #     with col2:
-    #         st.subheader('Secondary School (2006-2018)')
-    #         # st.write('ISC Boards: 94.6%')
-    #         # st.write('Maths Board Topper (100%)')
-    #         # st.write('Computer Science Board Topper (100%)')
-    #         #st.write('CGPA (Out of 4) : 3.71')
-    #     with col1:
-    #         st.image(shikshantar_image)
+        #st.image(confidential)
+        st.subheader('Thapar Institute of Engineering and Technology, Patiala')
+        #st.title()
+        col1, col2 = st.columns([3,7])
+        with col2:
+            st.subheader('B.E. Computer Engineering (2020-2024)')
+            st.write('CGPA (Out of 10): 9.28 ')
+            st.write('CGPA (Out of 4) : 3.71')
+        with col1:
+            st.image(thapar_image)
+    with st.container():
+        st.write("---")
+        st.subheader('The Shri Ram School, Aravali')
+        #st.title()
+        col1, col2 = st.columns([3,7])
+        with col2:
+            st.subheader('Senior Secondary (2018-2020)')
+            st.write('ISC Boards (PCM-CS): 94.6%')
+            st.write('Maths Board Topper (100%)')
+            st.write('Computer Science Board Topper (100%)')
+            #st.write('CGPA (Out of 4) : 3.71')
+        with col1:
+            st.image(shri_ram_image)
+    with st.container():
+        st.write("---")
+        st.subheader('The Shri Ram School, Aravali')
+        #st.title()
+        col1, col2 = st.columns([3,7])
+        with col2:
+            st.subheader('Secondary School (2016-2018)')
+            st.write('ICSE Boards: 96.7%')
+            st.write('Maths Board Topper (100%)')
+            st.write('Computer Science Board Topper (100%)')
+            #st.write('CGPA (Out of 4) : 3.71')
+        with col1:
+            st.image(shri_ram_image)
+    with st.container():
+        st.write("---")
+        st.subheader('Shikshantar School')
+        #st.title()
+        col1, col2 = st.columns([3,7])
+        with col2:
+            st.subheader('Secondary School (2006-2018)')
+            # st.write('ISC Boards: 94.6%')
+            # st.write('Maths Board Topper (100%)')
+            # st.write('Computer Science Board Topper (100%)')
+            #st.write('CGPA (Out of 4) : 3.71')
+        with col1:
+            st.image(shikshantar_image)
 
 with tprojects:
     projtabcv, projtabml, projtabrobo, projtabsw, projtabfs = st.tabs(['Computer Vision','AI/ML','Robotics','Software Development','Full-Stack/Applications'])
